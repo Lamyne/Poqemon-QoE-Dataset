@@ -1,0 +1,125 @@
+1. Title of Database:  VideoLAN Client player and Quality of Experience Influence Factors (VLC-QoEIFs) dataset Version 02.
+	Updated December 16, 2017 by L.Amour, S. Souihi and A. Mellouk : 
+	Paris Est Créteil University -France-.
+
+2. Sources:
+   (a)  Lamine Amour, Sami Souihi, Said Hoceini, Abdelhamid Mellouk:
+          An Open Source Platform for Perceived Video Quality Evaluation. Q2SWinet@MSWiM: 
+		  pages 139-140. . November 2015. 
+		
+  (b)	Lamine Amour, Sami Souihi, Said Hoceini, Abdelhamid Mellouk:
+          A Hierarchical Classification Model of QoE Influence Factors. WWIC 2015: 
+		  pages 225-238, May 2015.
+		
+
+   (b) Lamine Amour, email: lamine.amour@u-pec.fr
+   (c) January 2018
+   
+   
+3. Past Usage:
+
+   (1) --------------
+   
+   
+   
+
+   The data was used by Orange to identify the --------------
+	
+
+   (2) 
+    Lamine Amour, Sami Souihi, Said Hoceini, Abdelhamid Mellouk:
+		"Building a Large Dataset for Model-based QoE Prediction in the Mobile Environment". 
+		The 18th ACM International Conference on Modeling, Analysis and Simulation 
+		of Wireless and Mobile Systems, 
+		pages 313-317. November 2015.
+
+   Here, the data set built methodlogy is explained, where -------------------
+
+
+
+4. Relevant Information:
+
+   -- These data are the results of a controlled laboratory testbed, where the 
+       Absolute Category Rate (ACR) method is used with Mean Opinion Score (MOS) ratting 
+	   level. 62 testers particpated to build this dataset.   
+
+   -- I think that the initial data set had around 30 variables, but 
+      for some reason I only have the 15 variables. 
+      
+   -- The attributes are (dontated by Lamine Amour, 
+	lamine.amour@u-pec )
+ 	1)  id
+	2)  QoS_bandwidth
+	3)  QoS_packet-loss
+	4)  QoS_delay
+	5)  QoS_jitter
+	6)  V_id-video
+	7)  V_content
+	8)  V_norm-bitrate
+	9)  V_complexity
+	10) V_complexity-class
+	11) QoA_VLCresolution
+ 	12) QoA_VLCbitrate
+	13) QoA_VLCframerate  
+ 	14) QoA_VLCdropped
+	15) QoA_VLCaudiorate
+ 	16) QoA_VLCaudioloss
+ 	17) QoD-cpu_mhz-moy
+	18) QoD-cpu_mhz-avg 
+	19) QoD_cpu-nbr
+	20) QoD-cpu_core-nbr
+ 	21) QoD_stepping
+	22) QoD-cpu_bigo-mips
+	23) QoD_carte-class
+	24) QoD_screen-resolotion
+	25) QoD_screen-dimension
+	26) QoD_screen-mhz
+	27) QoD-screen_blug-type
+	28) QoD-ram_clock-speed
+	29) QoD_ram-size
+    30) MOS
+	
+	-- Each variable belongs to a category of QoE Influence Factors (QoE IFs) that consists:
+	      - Newtork parameters (QoS) (2 to 5)
+		  - Video content analysis results (6 to 10)
+	      - VLC player indicators (QoA) (11 to 16)
+		  - Device characteristics  (QoD)(17 to 29)
+          - User's 	MOS scoe(30)		  
+             
+5. Number of Instances : 
+
+      	class 1 (MOS = 1): 38  
+        class 2 (MOS = 2): 56
+      	class 3 (MOS = 3): 77
+      	class 4 (MOS = 4): 65
+        class 5 (MOS = 5): 64
+
+6. Number of Attributes 
+	
+	30
+
+7. For Each Attribute:
+
+	All attributes are digit except, video content type (V-content)  user gender (QoU_sex) and 
+	device screen size (QoD_screen_size)
+	
+	No statistics available, but suggest to standardise
+	variables for certain uses. 
+
+	NOTES: 
+      
+	  - 		  
+		  
+	  
+	  - 19st (MOS) Mean Opinion Scroe that a tester will give at the end of each video view.
+		   5 -> Excellent
+		   4 -> Good
+		   3 -> Fair
+		   2 -> Poor
+		   1 -> Bad
+	
+	
+8. Missing Attribute Values:
+
+	None
+
