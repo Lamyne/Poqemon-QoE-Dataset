@@ -110,11 +110,15 @@ few or no experience with video assessment experimentation.
              
 --> Number of Instances : 
 
-class 1 (MOS = 1): 92  
-class 2 (MOS = 2): 119
-class 3 (MOS = 3): 244
-class 4 (MOS = 4): 787
-class 5 (MOS = 5): 300
+-class 1 (MOS = 1): 92  
+
+-class 2 (MOS = 2): 119
+
+-class 3 (MOS = 3): 244
+
+-class 4 (MOS = 4): 787
+
+-class 5 (MOS = 5): 300
 
 --> Number of Attributes 	
    23
@@ -125,36 +129,59 @@ class 5 (MOS = 5): 300
     - 2st (Vresolution) attribute is class identifier for the video resolution (240p or 360p)
       
     - 10st (Ntype) attribute is class identifier for the used network type in the assessment:
+    
 • 1 : EDGE
-•  2 : UMTS 
+
+• 2 : UMTS 
+
 • 3 : HSPA
+
 • 4 : HSPAP
-•  5 : LTE
+
+• 5 : LTE
       
+     
    - 11st (Noperator) attribute is class identifier for the network operator in France:
+   
 • 1 : SFR 
+
 • 2 : BOUYEGUES 
+
 • 3 : ORANGE 
+
 • 4 : FREE
       
    - 14st (QoU_sex) User's gender.
+   
 • 0 -> Woman
+
 • 1 -> man
   
 		   
 - 15st (QoU_study) High user's level study
+
 • 5 -> University
+
 • 4 -> Secondary school
+
 • 3 -> College
-• 2 -> Premiry school
+
+• 2 -> Premary school
+
 • 1 -> Other
 	  
 - 19st (MOS) Mean Opinion Scroe that a tester will give at the end of each video view.
+
 • 5 -> Excellent
+
 • 4 -> Good
+
 • 3 -> Fair
+
 • 2 -> Poor
+
 • 1 -> Bad
+
 
 
 4- Related publications
