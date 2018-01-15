@@ -182,3 +182,7 @@ The following citation is requested if you use the dataset:
 
 Lamine Amour, Sami Souihi, Abdelhamid Mellouk: ACR-based Subjective QoE Datasets to Quantify YouTube Video Quality.
 QoMEX 2018: pages xxx-xxx, 2015 (Submitted).
+
+6- ACKNOWLEDGMENTS
+This work has been funded by Orange in the framework of the French cooperative project “Platform for Quality Evaluation
+of Mobile Networks”, Pˆole de Comp´etitivit´e Systematic (FUI 16).
