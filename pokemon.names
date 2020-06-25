@@ -1,0 +1,140 @@
+1. Title of Database: Pokemon subjective dataset
+	Updated December 06, 2017 by L.Amour, S. Souihi and A. Mellouk : 
+	Paris Est Créteil University -France-.
+
+2. Sources:
+   (a) Lamine Amour, Sami Souihi, Said Hoceini, Abdelhamid Mellouk:
+		"Building a Large Dataset for Model-based QoE Prediction in the Mobile Environment". 
+		The 18th ACM International Conference on Modeling, Analysis and Simulation 
+		of Wireless and Mobile Systems, 
+		pages 313-317. November 2015. 
+
+   (b) Lamine Amour, email: lamine.amour@u-pec.fr
+   (c) January 2018
+   
+   
+3. Past Usage:
+
+   (1) Stéphanie Moteau, Fabrice Guillemin and Thierry Houdoin
+   Correlation between QoS and QoE for HTTP YouTube content in Orange cellular networks
+   Conference 2017
+
+   The data was used by Orange to identify the Quality of Service (QoS) 
+   indicators in order to predict the Quality of Experience (QoE) for HTTP YouTube content 
+    on mobile networks. A part of the results are based on experiments on the Orange network. 
+	
+
+   (2) 
+    Lamine Amour, Sami Souihi, Said Hoceini, Abdelhamid Mellouk:
+		"Building a Large Dataset for Model-based QoE Prediction in the Mobile Environment". 
+		The 18th ACM International Conference on Modeling, Analysis and Simulation 
+		of Wireless and Mobile Systems, 
+		pages 313-317. November 2015.
+
+   Here, the data set built methodlogy is explained, where the ACR method were used to
+   evaluate subjectevly the user's QoE using Mean Opinion Score (MOS). Furthermore, this 
+   data was used to illustrate the QoE IFs interaction problem in the QoE assessment.
+
+
+
+4. Relevant Information:
+
+   -- These data are the results of a crouwdsourcing campaign, where the 
+       Absolute Category Rate is used with Mean Opinion Score (MOS) ratting 
+	   level.   
+
+   -- I think that the initial data set had around 30 variables, but 
+      for some reason I only have the 16 variables. 
+      
+   -- The attributes are (dontated by Lamine Amour, 
+	lamine.amour@u-pec )
+ 	1)  id
+	2)  user_id
+ 	3)  QoA_VLCresolution
+ 	4)  QoA_VLCbitrate
+	5)  QoA_VLCframerate  
+ 	6)  QoA_VLCdropped
+	7)  QoA_VLCaudiorate
+ 	8)  QoA_VLCaudioloss
+ 	9)  QoA_BUFFERINGcount
+ 	10) QoA_BUFFERINGtime
+	11) QoS_type
+ 	12) QoS_operator
+	13) QoD_model
+ 	14) QoD_os-version
+    15) QoD_api-level
+ 	16) QoU_sex
+	17) QoU_age
+    18) QoU_study
+ 	19) QoF_begin_time
+ 	20) QoF_shift
+    21) QoF_audio
+    22) QoF_video
+    23) MOS
+	
+	-- Each variable belongs to a category of QoE Influence Factors (QoE IFs) that consists:
+	      - Video parameters from VLC video player (QoA) (3 to 10)
+          - Network information (QoS) (11 to 12)
+		  - Device characteristics  (QoD)(13 to 15)
+		  - User's profil (QoU) (16 to 18)	
+          - User feedback (QoF)(19 to 22)		  
+             
+5. Number of Instances : 
+
+      	class 1 (MOS = 1): 92  
+		class 2 (MOS = 2): 119
+		class 3 (MOS = 3): 244
+		class 4 (MOS = 4): 787
+		class 5 (MOS = 5): 300
+
+6. Number of Attributes 
+	
+	19
+
+7. For Each Attribute:
+
+	All attributes are digit
+	
+	No statistics available, but suggest to standardise
+	variables for certain uses.
+
+	NOTES: 
+	  - 2st (Vresolution) attribute is class identifier for the video resolution (240p or 360p)
+      
+	  - 10st (Ntype) attribute is class identifier for the used network type in the assessment:
+	       -> 1 : EDGE
+		   -> 2 : UMTS 
+		   -> 3 : HSPA
+           -> 4 : HSPAP
+           -> 5 : LTE
+      
+	  - 11st (Noperator) attribute is class identifier for the network operator in France:
+	       -> 1 : SFR 
+		   -> 2 : BOUYEGUES 
+		   -> 3 : ORANGE 
+           -> 4 : FREE
+      
+	  - 14st (QoU_sex) User's gender.
+		   0 -> Woman
+		   1 -> man
+		  
+		   
+	  - 15st (QoU_study) High user's level study
+		   5 -> University
+		   4 -> Secondary school
+		   3 -> College
+		   2 -> Premiry school
+		   1 -> Other
+	  
+	  - 19st (MOS) Mean Opinion Scroe that a tester will give at the end of each video view.
+		   5 -> Excellent
+		   4 -> Good
+		   3 -> Fair
+		   2 -> Poor
+		   1 -> Bad
+	
+	
+8. Missing Attribute Values:
+
+	None
+
