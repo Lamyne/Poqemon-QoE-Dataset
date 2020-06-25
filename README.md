@@ -205,14 +205,8 @@ few or no experience with video assessment experimentation.
    evaluate subjectevly the user's QoE using Mean Opinion Score (MOS). Furthermore, this 
    data was used to illustrate the QoE IFs interaction problem in the QoE assessment.
    
-   5- Citation Request:
 
-The following citation is requested if you use the dataset:
-
-Lamine Amour, Sami Souihi, Abdelhamid Mellouk: ACR-based Subjective QoE Datasets to Quantify YouTube Video Quality.
-QoMEX 2018: pages xxx-xxx, 2018 (Submitted).
-
-6- ACKNOWLEDGMENTS
+5- ACKNOWLEDGMENTS
 
 This work has been funded by Orange in the framework of the French cooperative project “Platform for Quality Evaluation
 of Mobile Networks”, Pˆole de Comp´etitivit´e Systematic (FUI 16).
