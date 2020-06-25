@@ -34,8 +34,8 @@ Creators:
 The dataset was built from a crowdsourcing campagn test where 1560 samples covering 29 Quality of Experience Impact Factors (QoE IFs). 
 The used videos are of different types/complexities.
 
-The geographical location of the testbed was the LiSSi laboratory (http://lab.lissi.fr/) around Paris city in France. 62 testers 
-prticipated in the test campaign. All of them were researchers and students from different disciplines aged 20 to 37 years with
+The geographical location of the testbed was the LiSSi laboratory (http://lab.lissi.fr/) around Paris city in France. 181 testers 
+prticipated in the test campaign. All of them were researchers (their family) and students  from different disciplines aged 19 to 38 years with
 few or no experience with video assessment experimentation.
 
 3- Attribute Information:
@@ -126,7 +126,7 @@ few or no experience with video assessment experimentation.
   
  
 --> NOTES: 
-    - 2st (Vresolution) attribute is class identifier for the video resolution (240p or 360p)
+    - 2st (Vresolution) attribute is class identifier for the video resolution (240p, 360p)
       
     - 10st (Ntype) attribute is class identifier for the used network type in the assessment:
     
